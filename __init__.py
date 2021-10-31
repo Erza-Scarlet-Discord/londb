@@ -1,5 +1,5 @@
 import json
-
+import pyrebase
 
 class database:
 
@@ -39,3 +39,8 @@ class database:
 
         except Exception as e:
             print(f"Error {str(e)}")
+
+class FirebaseDatabase:
+    """Use Firebase Storage to store databases"""
+    def __init__(self, filename):
+        pass
